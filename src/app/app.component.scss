@@ -1,0 +1,24 @@
+@import "../styles.scss";
+
+.faq-container {
+  ul {
+    li {
+      list-style-type: none;
+      .question {
+        display: flex;
+
+        .question-text {
+          flex-basis: 500px;
+          margin-left: 8px;
+          font-size: 16px;
+        }
+        img {
+          width: 20px;
+        }
+        .expander {
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
